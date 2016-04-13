@@ -1,5 +1,5 @@
-/* @ngInject */
 export default function routes($routeProvider) {
+  'ngInject';
   $routeProvider
     .when('/cv', {
       template: require('./cv.html'),
